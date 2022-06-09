@@ -1,25 +1,25 @@
-#Zuev Roman
-###General information
-####Date of birth
+# Zuev Roman
+### General information
+#### Date of birth
 12.11.1986
-####Adress
+#### Adress
 Russia,Moscow
-###Contacts
-####Telegram
+### Contacts
+#### Telegram
 @zuevra
-####Mail
+#### Mail
 +799x40472xx@gmail.com
-####Phone
+#### Phone
 +799x40472xx
-####Discord
+#### Discord
 zr0man
-###About me
+### About me
 Hello, everyone, i'm Roman. Now I work as a PM in marketing. I am interested in programming.
-###Education
+### Education
 No comments
-###My skills
+### My skills
 No comments
-###Example code
+### Example code
 ```begin
 var a : array[1..50] of integer;
 var m1 : integer;  
