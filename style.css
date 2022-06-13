@@ -1,1 +1,64 @@
-random text
+@font-face {
+    font-family: KdamThmorPro;
+     src: url("assets/fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf");
+   }
+@font-face {
+    font-family: RobotoMono;
+     src: url("assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+   }
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+   * {
+    box-sizing: border-box;
+  }
+.header {
+    border: 1px solid red;
+    background-color: #000000;
+}
+.main {
+    border: 1px solid red;
+}
+.footer {
+    border: 1px solid red;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: KdamThmorPro;
+}
+
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .nav-item a:hover {
+    color: #829985;
+  }
+
+  .section-title {
+      
+  }
