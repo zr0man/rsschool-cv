@@ -3,9 +3,15 @@
      src: url("assets/fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf");
    }
 @font-face {
-    font-family: RobotoMono;
-     src: url("assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+    font-family: Roboto;
+     src: (url("assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf"));
    }
+
+   @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
 
 html {
     scroll-behavior: smooth; 
@@ -15,14 +21,26 @@ html {
     box-sizing: border-box;
   }
 .header {
-    border: 1px solid red;
+    
     background-color: #000000;
 }
 .main {
-    border: 1px solid red;
+    
 }
 .footer {
-    border: 1px solid red;
+    background-color: #000000;
+}
+
+.footer-img {
+    width: 40px;
+    height: 40px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -34,7 +52,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
-
+.main-container {
+    display: flex;
+  flex-wrap: wrap;
+}
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -59,6 +80,25 @@ body {
     color: #829985;
   }
 
-  .section-title {
-      
+  .section {
+    width: 50%
   }
+  .section-title {
+font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #1c1e1c;
+  font-family: KdamThmorPro;
+  }
+.section-profile-logo {
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+}
+  .link {
+    text-decoration: none;
+    color: #131513;
+    transition: color 0.4s;
+  }
+  
