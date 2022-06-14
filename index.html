@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+  
 </head>
-<body>
-
+<body style="min-height: 100vh;">
+<header class="header">
+    <div class="container" >
+<nav class="nav">
+    <ul class="nav-list">
+        <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+    </ul>
+</nav>
+</div>
+</header>
+<main class="main">
+    <div class="main-container">
+        <section class="section" id="profile">
+            <img src="/assets/img/image1.jpg" alt="my foto" class="section-profile-logo">
+            <H1 class="section-title">Roman Zuev</H1>
+            <p>Date of birth: 12.11.1986</p>
+            <p>Adress: Russia,Moscow</p>
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <p>Telegram: <a href="@zuevra">@zuevra</a> </p>
+            <p>Mail: <a href="89914047220r@gmail.com">89914047220r@gmail.com</a></p>
+            <p>Discord: <a href="zr0man">zr0man</a></p>
+            <p>Phone: <a href="tel:+79914047220">+79914047220</a></p>
+            <p>Github: <a href="https://github.com/zr0man/">zr0man</a></p>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>Hello, everyone, i'm Roman. Now I work as a PM in marketing.</p>
+            <p>I am interested in programming since april 2022.</p>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>3rd grade of the parish school :)</p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+                <li>Analytical Chemistry</li>
+                <li>Spectral analysis</li>
+                <li>A little of HTML</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <pre>
+                <code>a : array[1..50] of integer;
+                    m1 : integer;  
+                    m2 : integer; 
+                    buff : integer;   
+                    n :=readinteger;
+                    for i:=1 to n do readln(a[i]);
+                        if a[1]>a[2]
+                        then begin
+                             m1:=1;
+                             m2:=2;
+                        end
+   
+                     else begin
+                             m1:=2;
+                             m2:=1;
+                     end;
+                     for i:=3 to n do
+                     if a[i]>a[m1] then begin
+                         buff:=m1;
+                         m1:=i;
+                     if a[buff]>a[m2] then
+                         m2:=buff;
+                     end
+                     else
+                     if a[i]>a[m2] then
+                         m2:=i;     
+                     println(m1);
+                     println(m2);
+                     end.</code>
+            </pre>
+        </section>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="nav-link">2022</div>
+        <div><a href="https://github.com/zr0man" class="nav-link">zr0man</a></div>
+        <img src="https://rs.school/images/rs_school_js.svg" class="footer-img" alt="RS School logo"> <a href="https://rs.school/js/" class="nav-link">RS SCHOOL</a>
+    </div>
+</footer>
 </body>
 </html>
